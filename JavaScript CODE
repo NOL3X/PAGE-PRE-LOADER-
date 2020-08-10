@@ -1,0 +1,4 @@
+setTimeout(function(){
+  let loaded = document.getElementById('demo-content');
+  loaded.className += 'loaded';
+}, 3000);
